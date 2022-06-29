@@ -6,3 +6,4 @@ yay-git
 .cache
 .local
 .cargo
+.config/gh
