@@ -2,3 +2,7 @@
 .gitconfig
 .npm
 .npm-global
+yay-git
+.cache
+.local
+.cargo
