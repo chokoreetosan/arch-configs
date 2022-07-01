@@ -8,3 +8,4 @@ yay-git
 .cargo
 .config/gh
 .lesshst
+.bash_history
