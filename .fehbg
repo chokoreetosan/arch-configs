@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/abhishek/wallpapers/Favorites/anime-girl-in-dress.jpg' 
