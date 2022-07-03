@@ -9,3 +9,5 @@ yay-git
 .config/gh
 .lesshst
 .bash_history
+.zshrc
+.zcompdump
