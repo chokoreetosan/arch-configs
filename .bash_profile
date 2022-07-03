@@ -8,3 +8,4 @@ export TERMINAL=lvim
 export VISUAL=lvim
 export EDITOR="$VISUAL"
 [[ -f ~/.bashrc ]] && . ~/.bashrc
+exec zsh
