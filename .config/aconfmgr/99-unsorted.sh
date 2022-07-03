@@ -1,6 +1,6 @@
 
 
-# Fri Jul  1 06:24:33 AM PDT 2022 - Unknown packages
+# Sat Jul  2 11:20:36 PM PDT 2022 - Unknown packages
 
 
 AddPackage alacritty # A cross-platform, GPU-accelerated terminal emulator
@@ -15,6 +15,7 @@ AddPackage cmake # A cross-platform open-source make system
 AddPackage dhcpcd # RFC2131 compliant DHCP client daemon
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 AddPackage fakeroot # Tool for simulating superuser privileges
+AddPackage feh # Fast and light imlib2-based image viewer
 AddPackage file # File type identification utility
 AddPackage findutils # GNU utilities to locate files
 AddPackage firefox # Standalone web browser from mozilla.org
@@ -38,7 +39,6 @@ AddPackage make # GNU make utility to maintain groups of programs
 AddPackage nano # Pico editor clone with enhancements
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage netctl # Profile based systemd network management
-AddPackage nitrogen # Background browser and setter for X windows
 AddPackage npm # A package manager for javascript
 AddPackage pacman # A library-based package manager with dependency support
 AddPackage patch # A utility to apply patch files to original sources
@@ -99,15 +99,16 @@ AddPackage xorg-xwud # X Window System image undumping utility
 AddPackage xterm # X Terminal Emulator
 
 
-# Fri Jul  1 06:24:34 AM PDT 2022 - Unknown foreign packages
+# Sat Jul  2 11:20:37 PM PDT 2022 - Unknown foreign packages
 
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
+AddPackage --foreign nerd-fonts-mononoki # Patched font Mononoki from nerd-fonts library
 AddPackage --foreign tmux-bash-completion-git # Bash completion for tmux
 AddPackage --foreign yay-git # Yet another yogurt. Pacman wrapper and AUR helper written in go. (development version)
 
 
-# Fri Jul  1 06:24:34 AM PDT 2022 - New / changed files
+# Sat Jul  2 11:20:38 PM PDT 2022 - New / changed files
 
 
 CopyFile /lvim 744
