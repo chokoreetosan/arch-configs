@@ -90,3 +90,9 @@ AddPackage --foreign yay-git # Yet another yogurt. Pacman wrapper and AUR helper
 
 
 CopyFile /lvim 744
+
+
+# Sun Jul  3 05:06:39 PM PDT 2022 - Unknown packages
+
+
+AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.

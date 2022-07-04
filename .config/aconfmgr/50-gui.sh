@@ -6,3 +6,4 @@ AddPackage awesome
 AddPackage picom
 
 AddPackage alacritty
+AddPackage lsd
