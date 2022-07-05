@@ -1,0 +1,12 @@
+[2022-07-05T10:37:41.661Z] Log level: Info
+[2022-07-05T10:37:41.662Z] [info] Validating found git in: git
+[2022-07-05T10:37:41.784Z] [info] Using git 2.37.0 from git
+[2022-07-05T10:37:41.827Z] > git rev-parse --show-toplevel [30ms]
+[2022-07-05T10:37:41.857Z] > git rev-parse --git-dir --git-common-dir [27ms]
+[2022-07-05T10:37:41.860Z] [info] Open repository: /home/abhishek
+[2022-07-05T10:37:42.000Z] > git status -z -uall [137ms]
+[2022-07-05T10:37:42.014Z] > git symbolic-ref --short HEAD [8ms]
+[2022-07-05T10:37:42.076Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+[2022-07-05T10:37:42.092Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-07-05T10:37:42.103Z] > git remote --verbose [12ms]
+[2022-07-05T10:37:42.152Z] > git config --get commit.template [15ms]
