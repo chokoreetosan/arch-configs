@@ -15,7 +15,5 @@ compinit
 alias ls='lsd'
 export PATH=~/.local/bin:$PATH
 export LIBGL_ALWAYS_SOFTWARE=1
-#
-# ~/.bashrc
-#
-
+export XDG_STATE_HOME=~/.local/state/
+export LOG_PATH=$XDG_STATE_HOME/logs/
