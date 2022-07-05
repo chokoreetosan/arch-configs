@@ -12,3 +12,5 @@ yay-git
 .zcompdump
 .histfile
 .pki
+.mozilla/
+.config/google-chrome
