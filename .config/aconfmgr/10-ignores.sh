@@ -34,3 +34,4 @@ IgnorePath '*.sbak'
 IgnorePath '*.pacnew'
 IgnorePath '*.pacsave'
 
+IgnorePackage 'virtualbox-guest-utils'
