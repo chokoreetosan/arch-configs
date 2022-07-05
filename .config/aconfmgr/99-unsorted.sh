@@ -108,3 +108,16 @@ RemovePackage virtualbox-guest-utils
 
 
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
+
+
+# Tue Jul  5 03:59:37 AM PDT 2022 - Unknown packages
+
+
+AddPackage discord # All-in-one voice and text chat for gamers that's free and secure.
+
+
+# Tue Jul  5 03:59:37 AM PDT 2022 - Unknown foreign packages
+
+
+AddPackage --foreign google-chrome # The popular and trusted web browser by Google (Stable Channel)
+AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
