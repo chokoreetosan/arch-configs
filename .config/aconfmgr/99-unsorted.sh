@@ -96,3 +96,15 @@ CopyFile /lvim 744
 
 
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
+
+
+# Tue Jul  5 03:41:12 AM PDT 2022 - Missing packages
+
+
+RemovePackage virtualbox-guest-utils
+
+
+# Tue Jul  5 03:41:12 AM PDT 2022 - Unknown foreign packages
+
+
+AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
