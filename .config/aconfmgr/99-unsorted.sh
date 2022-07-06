@@ -1,6 +1,6 @@
 
 
-# Wed Jul  6 01:05:20 AM PDT 2022 - Unknown packages
+# Wed Jul  6 11:41:58 AM PDT 2022 - Unknown packages
 
 
 AddPackage amd-ucode # Microcode update image for AMD CPUs
@@ -19,7 +19,6 @@ AddPackage flex # A tool for generating text-scanning programs
 AddPackage gawk # GNU version of awk
 AddPackage gcc # The GNU Compiler Collection - C and C++ frontends
 AddPackage gettext # GNU internationalization library
-AddPackage git # the fast distributed version control system
 AddPackage github-cli # The GitHub CLI
 AddPackage grep # A string search utility
 AddPackage groff # GNU troff text-formatting system
@@ -44,6 +43,7 @@ AddPackage texinfo # GNU documentation system for on-line information and printe
 AddPackage tmux # A terminal multiplexer
 AddPackage vi # The original ex/vi text editor
 AddPackage which # A utility to show the full path of commands
+AddPackage xclip # Command line interface to the X11 clipboard
 AddPackage xf86-video-vesa # X.org vesa video driver
 AddPackage xorg-docs # X.org documentations
 AddPackage xorg-font-util # X.Org font utilities
@@ -61,9 +61,10 @@ AddPackage xorg-xwayland # run X clients under wayland
 AddPackage xterm # X Terminal Emulator
 
 
-# Wed Jul  6 01:05:20 AM PDT 2022 - Missing packages
+# Wed Jul  6 11:41:58 AM PDT 2022 - Missing packages
 
 
+RemovePackage base-devel
 RemovePackage xorg-setxkbmap
 RemovePackage xorg-xauth
 RemovePackage xorg-xkbcomp
@@ -72,7 +73,7 @@ RemovePackage xorg-xrandr
 RemovePackage xorg-xrdb
 
 
-# Wed Jul  6 01:05:20 AM PDT 2022 - Unknown foreign packages
+# Wed Jul  6 11:41:58 AM PDT 2022 - Unknown foreign packages
 
 
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
@@ -84,7 +85,7 @@ AddPackage --foreign yay-git # Yet another yogurt. Pacman wrapper and AUR helper
 AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 
 
-# Wed Jul  6 01:05:21 AM PDT 2022 - New / changed files
+# Wed Jul  6 11:41:58 AM PDT 2022 - New / changed files
 
 
 CopyFile /lvim 744
