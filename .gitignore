@@ -14,3 +14,5 @@ yay-git
 .pki
 .mozilla/
 .config/google-chrome
+zoomus.enc.db
+zoomus.tmp.enc.db
