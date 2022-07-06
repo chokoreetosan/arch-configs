@@ -35,3 +35,6 @@ IgnorePath '*.pacnew'
 IgnorePath '*.pacsave'
 
 IgnorePackage 'virtualbox-guest-utils'
+IgnorePackage 'npm'
+IgnorePackage 'node'
+
