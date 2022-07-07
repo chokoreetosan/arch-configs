@@ -37,4 +37,6 @@ IgnorePath '*.pacsave'
 IgnorePackage 'virtualbox-guest-utils'
 IgnorePackage 'npm'
 IgnorePackage 'node'
-
+IgnorePackage 'yay'
+IgnorePackage 'yay-git'
+IgnorePackage 'aconfmgr-git'
