@@ -34,6 +34,6 @@ fi
 
 LIBGL_ALWAYS_SOFTWARE=true
 
-./.fehbg &
+~/.fehbg &
 picom -f --xrender-fence &
 exec awesome
