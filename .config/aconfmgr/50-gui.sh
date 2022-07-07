@@ -15,6 +15,8 @@ AddPackage picom # X compositor that may fix tearing issues
 AddPackage tmux # A terminal multiplexer
 
 
+AddPackage xterm # X Terminal Emulator
+
 AddPackage --foreign nerd-fonts-mononoki # Patched font Mononoki from nerd-fonts library
 
 AddPackage --foreign tmux-bash-completion-git # Bash completion for tmux
