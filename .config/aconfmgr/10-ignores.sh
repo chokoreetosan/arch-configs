@@ -20,6 +20,7 @@ IgnorePath '/etc/light*'
 IgnorePath '/etc/ssh/ssh_host_*'
 IgnorePath '/etc/resolv.conf'
 IgnorePath '/etc/fonts/*'
+IgnorePath '~/.local/bin'
 
 IgnorePath '/lost+found'
 
