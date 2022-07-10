@@ -18,3 +18,4 @@ zoomus.enc.db
 zoomus.tmp.enc.db
 .zoom
 .python_history
+.bash*
