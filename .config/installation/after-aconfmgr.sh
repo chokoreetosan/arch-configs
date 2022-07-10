@@ -1,4 +1,7 @@
+#!/bin/zsh
 
 
+sh ./nvm-npm-node.sh
 
-chsh -s /usr/bin/zsh
+sh ./lunarvim.sh
+
