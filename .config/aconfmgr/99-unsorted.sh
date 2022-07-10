@@ -4,5 +4,4 @@
 
 
 AddPackage amd-ucode # Microcode update image for AMD CPUs
-AddPackage rust # Systems programming language focused on safety, speed and concurrency
 AddPackage xf86-video-vmware # X.org vmware video driver

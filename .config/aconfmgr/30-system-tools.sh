@@ -19,6 +19,9 @@ AddPackage which # A utility to show the full path of commands
 
 AddPackage gzip # GNU compression utility
 
+
+AddPackage rust # Systems programming language focused on safety, speed and concurrency
+
 AddPackage cmake # A cross-platform open-source make system
 
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
