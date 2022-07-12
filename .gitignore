@@ -4,7 +4,6 @@
 .npm-global
 yay-git
 .cache
-.local
 .cargo
 .config/gh
 .lesshst
@@ -21,3 +20,4 @@ zoomus.tmp.enc.db
 .bash*
 .config/Code/*
 !.config/Code/User
+.local/
