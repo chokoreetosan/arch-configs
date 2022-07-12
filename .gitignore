@@ -19,3 +19,5 @@ zoomus.tmp.enc.db
 .zoom
 .python_history
 .bash*
+.config/Code/*
+!.config/Code/User
