@@ -13,11 +13,14 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-export "PATH=/home/abhishek/.local/bin:$PATH"
+export "PATH=$HOME/.local/bin:$PATH"
 export "VISUAL=lvim"
 export "EDITOR=$VISUAL"
+export "STARSHIP_CONFIG=$HOME/.config/starship/starship.toml"
 
 alias ls='lsd'
 export LIBGL_ALWAYS_SOFTWARE=1
-export XDG_STATE_HOME=~/.local/state/
+export XDG_STATE_HOME=$HOME/.local/state/
 export LOG_PATH=$XDG_STATE_HOME/logs/
+
+eval "$(starship init zsh)"
