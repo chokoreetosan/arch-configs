@@ -35,6 +35,8 @@ IgnorePath '*.sbak'
 IgnorePath '*.pacnew'
 IgnorePath '*.pacsave'
 
+
+IgnorePackage 'xf86-video-vmware' # X.org vmware video driver
 IgnorePackage 'virtualbox-guest-utils'
 IgnorePackage 'npm'
 IgnorePackage 'node'

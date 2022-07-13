@@ -6,6 +6,8 @@ AddPackage file # File type identification utility
 AddPackage hwinfo # Hardware detection tool from openSUSE
 AddPackage grep # A string search utility
 AddPackage github-cli # The GitHub CLI
+
+AddPackage lastpass-cli # LastPass command line interface tool
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
 AddPackage lsd # Modern ls with a lot of pretty colors and awesome icons
@@ -27,6 +29,9 @@ AddPackage cmake # A cross-platform open-source make system
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
 
 AddPackage grub # GNU GRand Unified Bootloader (2)
+
+AddPackage amd-ucode # Microcode update image for AMD CPUs
+
 
 AddPackage zsh
 AddPackage zsh-completions
