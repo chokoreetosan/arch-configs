@@ -10,6 +10,8 @@ AddPackage xclip # Command line interface to the X11 clipboard
 
 
 AddPackage alacritty # A cross-platform, GPU-accelerated terminal emulator
+AddPackage starship # The cross-shell prompt for astronauts
+
 AddPackage awesome # Highly configurable framework window manager
 AddPackage picom # X compositor that may fix tearing issues
 AddPackage tmux # A terminal multiplexer
