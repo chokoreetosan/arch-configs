@@ -21,7 +21,7 @@ AddPackage which # A utility to show the full path of commands
 
 AddPackage gzip # GNU compression utility
 
-
+AddPackage ranger # Simple, vim-like file manager
 AddPackage rust # Systems programming language focused on safety, speed and concurrency
 
 AddPackage cmake # A cross-platform open-source make system
