@@ -44,5 +44,29 @@ Otherwise, the new installation won't be able to access the internet.
 
 Be sure to configure grub, or the system won't boot.
 
-Todo. figure out os-prober
+Check the grub wiki, but you will need to run
+
+grub-install
+with some flags and arguments
+
+use grub-mkconfig -o /boot/grub/grub.cfg
+
+to generate the grub config
+
+Mount the other operating system partitions.
+Run grub-mkconfig again. If you get a warning os-proper will not be executed...
+
+edit /etc/default/grub and add or uncomment
+
+GRUB_DISABLE_OS_PROBER=false
+
+and rerun grub-mkconfig
+
+And then add
+
+/boot/amd-ucode.img as the first initrd in the bootloader config file
+
+Rerun grub-mkconfig to auto detect the microcode update
+
+
 

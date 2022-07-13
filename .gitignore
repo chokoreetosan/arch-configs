@@ -21,3 +21,4 @@ zoomus.tmp.enc.db
 .config/Code/*
 !.config/Code/User
 .local/
+.config/aconfmgr/99-unsorted.sh
