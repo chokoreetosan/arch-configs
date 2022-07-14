@@ -23,4 +23,6 @@ AddPackage nano # Pico editor clone with enhancements
 AddPackage gzip # GNU compression utility
 AddPackage ranger # Simple, vim-like file manager
 
+AddPackage htop # Interactive process viewer
+
 AddPackage lsd # Modern ls with a lot of pretty colors and awesome icons

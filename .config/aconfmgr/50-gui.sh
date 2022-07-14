@@ -17,6 +17,8 @@ AddPackage picom # X compositor that may fix tearing issues
 AddPackage tmux # A terminal multiplexer
 
 
+AddPackage network-manager-applet # Applet for managing network connections
+
 AddPackage xterm # X Terminal Emulator
 
 AddPackage --foreign nerd-fonts-mononoki # Patched font Mononoki from nerd-fonts library
