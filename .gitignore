@@ -22,3 +22,7 @@ zoomus.tmp.enc.db
 !.config/Code/User
 .local/
 .config/aconfmgr/99-unsorted.sh
+.surf/certificates/
+.surf/cache/
+.surf/cookies.txt
+
