@@ -16,6 +16,7 @@ yay-git
 zoomus.enc.db
 zoomus.tmp.enc.db
 .zoom
+.config/zoomus.conf.lock
 .python_history
 .bash*
 .config/Code/*
