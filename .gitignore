@@ -25,4 +25,5 @@ zoomus.tmp.enc.db
 .surf/certificates/
 .surf/cache/
 .surf/cookies.txt
-
+.config/obsidian/*
+!.config/obsidian/Preferences
