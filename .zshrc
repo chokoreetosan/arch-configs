@@ -19,6 +19,7 @@ export "EDITOR=$VISUAL"
 export "STARSHIP_CONFIG=$HOME/.config/starship/starship.toml"
 
 alias ls='lsd'
+alias cat='lolcat'
 export LIBGL_ALWAYS_SOFTWARE=1
 export XDG_STATE_HOME=$HOME/.local/state/
 export LOG_PATH=$XDG_STATE_HOME/logs/
