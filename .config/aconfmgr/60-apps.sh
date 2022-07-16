@@ -15,4 +15,3 @@ AddPackage --foreign brave-bin # Web browser that blocks ads and trackers by def
 AddPackage --foreign surf # A simple web browser based on WebKit/GTK+.
 
 AddPackage firefox # Standalone web browser from mozilla.org
-AddPackage discord # All-in-one voice and text chat for gamers that's free and secure.

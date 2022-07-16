@@ -13,6 +13,7 @@ AddPackage alacritty # A cross-platform, GPU-accelerated terminal emulator
 AddPackage starship # The cross-shell prompt for astronauts
 
 AddPackage awesome # Highly configurable framework window manager
+AddPackage vicious # Widgets for the Awesome window manager
 AddPackage picom # X compositor that may fix tearing issues
 AddPackage tmux # A terminal multiplexer
 

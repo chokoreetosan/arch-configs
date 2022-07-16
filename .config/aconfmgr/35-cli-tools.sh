@@ -5,6 +5,7 @@
 AddPackage lsof # Lists open files for running Unix processes
 AddPackage which # A utility to show the full path of commands
 
+AddPackage pv # A terminal-based tool for monitoring the progress of data through a pipeline.
 
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage findutils # GNU utilities to locate files
