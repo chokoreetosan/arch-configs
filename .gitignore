@@ -28,3 +28,5 @@ zoomus.tmp.enc.db
 .surf/cookies.txt
 .config/obsidian/*
 !.config/obsidian/Preferences
+.links/links.his
+.links/cookies.txt
