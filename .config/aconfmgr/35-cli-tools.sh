@@ -25,4 +25,10 @@ AddPackage ranger # Simple, vim-like file manager
 
 AddPackage htop # Interactive process viewer
 
+
+AddPackage links # A text WWW browser, similar to Lynx
+AddPackage lynx # A text browser for the World Wide Web
+
+AddPackage imagemagick # An image viewing/manipulation program
+
 AddPackage lsd # Modern ls with a lot of pretty colors and awesome icons

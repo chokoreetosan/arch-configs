@@ -9,6 +9,8 @@ AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 AddPackage --foreign google-chrome # The popular and trusted web browser by Google (Stable Channel)
 
 
+AddPackage obsidian # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+
 AddPackage --foreign brave-bin # Web browser that blocks ads and trackers by default (binary release)
 AddPackage --foreign surf # A simple web browser based on WebKit/GTK+.
 
