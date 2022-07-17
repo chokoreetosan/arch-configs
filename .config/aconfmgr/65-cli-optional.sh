@@ -7,7 +7,6 @@ AddPackage lolcat # Okay, no unicorns. But rainbows!!
 
 AddPackage asciiquarium # An aquarium/sea animation in ASCII art
 AddPackage cmatrix # A curses-based scrolling 'Matrix'-like screen
-AddPackage cowfortune # Configurable fortune cookie proclaiming cow (and a few other creatures)
 AddPackage cowsay # Configurable talking cow (and a few other creatures)
 AddPackage figlet # A program for making large letters out of ordinary text
 AddPackage fortune-mod # The Fortune Cookie Program from BSD games
