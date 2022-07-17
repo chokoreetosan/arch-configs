@@ -31,6 +31,9 @@ AddPackage sl # Steam Locomotive runs across your terminal when you type "sl" as
 # Sat Jul 16 01:42:51 AM PDT 2022 - Unknown foreign packages
 
 
+AddPackage aalib # A portable ASCII art graphic library
+AddPackage ponysay # cowsay reimplemention for ponies
+
 AddPackage --foreign ascii-rain-git # Comfy rain for your console written in C with Ncurses.
 AddPackage --foreign cbonsai # A bonsai tree generator, written in C using ncurses
 AddPackage --foreign toilet # free replacement for the FIGlet utility.
