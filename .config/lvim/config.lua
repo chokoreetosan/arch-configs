@@ -1,21 +1,26 @@
---[[
-lvim is the global options object
+--lvim is the global options object
 
-Linters should be
-filled in as strings with either
-a global executable or a path to
-an executable
-]]
--- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
-
--- general
-
+--Vim makes a backup for the write operation, and then keeps the backup afterwards.
+--It stores the backup in .local  
+-- vim.opt.writebackup = true -- vim only creates a backup during the write operation. this is overridden by backup option
 vim.opt.backup = true
+if(vim.fn.isdirectory('~/.local/share/nvim/backups/')) == 0 then
+  vim.cmd(':silent !mkdir -p ~/.local/share/nvim/backups/')
+end
+
+vim.opt.backupdir:remove('.')
+vim.opt.backupdir:append(os.getenv("HOME") .. '/.local/share/nvim/backups/')
+vim.opt.backupext = '.bac'
+
+
+
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
+
+--Set the line wrapping rules
 vim.wo.wrap = true
 vim.wo.linebreak = true
 vim.opt.textwidth = 0
