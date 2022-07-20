@@ -9,10 +9,17 @@ an executable
 -- THESE ARE EXAMPLE CONFIGS FEEL FREE TO CHANGE TO WHATEVER YOU WANT
 
 -- general
+
+vim.opt.backup = true
+vim.opt.clipboard = "unnamedplus"
+vim.opt.termguicolors = true
 lvim.log.level = "warn"
 lvim.format_on_save = true
 lvim.colorscheme = "onedarker"
-vim.opt.wrap = true
+vim.wo.wrap = true
+vim.wo.linebreak = true
+vim.opt.textwidth = 0
+vim.opt.wrapmargin = 0
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
 
@@ -24,21 +31,17 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 -- vim.keymap.del("n", "<C-Up>")
 -- override a default keymapping
 -- lvim.keys.normal_mode["<C-q>"] = ":q<cr>" -- or 
+
+-- 60% fa lyfe
 vim.keymap.set("n", "j", "<nop>" )
-
 vim.keymap.set("n", "h", "<nop>" )
-
 vim.keymap.set("n", "k", "<nop>" )
-
 vim.keymap.set("n", "l", "<nop>" )
-
 vim.keymap.set("v", "j", "<nop>" )
-
 vim.keymap.set("v", "h", "<nop>" )
-
 vim.keymap.set("v", "k", "<nop>" )
-
 vim.keymap.set("v", "l", "<nop>" )
+
 -- Change Telescope navigation to use j and k for navigation and n and p for history in both input and normal mode.
 -- we use protected-mode (pcall) just in case the plugin wasn't loaded yet.
 -- local _, actions = pcall(require, "telescope.actions")
