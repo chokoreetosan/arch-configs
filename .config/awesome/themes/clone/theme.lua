@@ -12,7 +12,7 @@ dofile(theme_path .. "elements.lua")
 dofile(theme_path .. "titlebar.lua")
 dofile(theme_path .. "layouts.lua")
 
-theme.wallpaper          = theme_path .. "background.jpg"
+--theme.wallpaper          = theme_path .. "background.jpg"
 theme.awesome_icon       = theme_path .. "launcher/logo20_kali_black.png"
 theme.awesome_subicon    = theme_path .. "launcher/logo20_kali_black.png"
 
