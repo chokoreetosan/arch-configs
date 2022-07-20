@@ -4,8 +4,8 @@
 --It stores the backup in .local  
 -- vim.opt.writebackup = true -- vim only creates a backup during the write operation. this is overridden by backup option
 vim.opt.backup = true
-if(vim.fn.isdirectory('~/.local/share/nvim/backups/')) == 0 then
-  vim.cmd(':silent !mkdir -p ~/.local/share/nvim/backups/')
+if(vim.fn.isdirectory(os.getenv('HOME') .. '/.local/share/nvim/backups/')) == 0 then
+  vim.cmd(':silent !mkdir -p '.. os.getenv('HOME') .. '/.local/share/nvim/backups/')
 end
 
 vim.opt.backupdir:remove('.')
@@ -167,13 +167,13 @@ lvim.builtin.treesitter.highlight.enabled = true
 -- }
 
 -- Additional Plugins
--- lvim.plugins = {
---     {"folke/tokyonight.nvim"},
---     {
---       "folke/trouble.nvim",
---       cmd = "TroubleToggle",
---     },
--- }
+ lvim.plugins = {
+     {"folke/tokyonight.nvim"},
+     {
+       "folke/trouble.nvim",
+       cmd = "TroubleToggle",
+     },
+ }
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
