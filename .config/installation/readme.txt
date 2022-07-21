@@ -16,7 +16,7 @@ Mount the file systems.
 
 
 
-First install the core packages which are base, base-devel, linux, linux-firmware, and git. Use pacstrap.
+First install the core packages which are base, base-devel, linux, linux-firmware, networkmanager, sudo, vi, grub, efibootmgr . Use pacstrap.
 
 Generate the fstab.
 
@@ -26,7 +26,12 @@ Create a user with useradd -m <username>
 Set the password with passwd <username> 
 Use visudo to add this new user to the sudoers group.
 
-press exit to log out of root, and log in as the new user.
+configure grub.
+
+exit chroot
+shutdown
+boot up, and log in as new user
+
 
 Git clone the configs repo.
 
