@@ -2,36 +2,24 @@ This readme is intended as a supplement to the official Arch linux install docs.
 
 It's purpose is to highlight the ways in which my installation and configuration differs from standard practice.
 
-It will eventually be replaced in it's entirety with scripting.
+ToDo: make sure all 3 installation scripts work properly. The following guide outlines what they should do, for easy reference, but seriously, just use the installation docs.
+Also, make sure that you read the scripts and change any settings and values as you need.
+Run setup-1.sh.
 
+First install the packages in packages.txt. You can use pacstrap-2.sh.
 
-Verify the boot mode.
-
-Check for internet connection.
-
-Partition the disks with fdisk and format the partitions.
-
-Mount the file systems.
-
-
-
-
-First install the core packages which are base, base-devel, linux, linux-firmware, networkmanager, sudo, vi, grub, efibootmgr . Use pacstrap.
-
+finish-3.sh should do the next 3 steps:
 Generate the fstab.
-
 Chroot into the new system.
+Configure grub.
 
 Create a user with useradd -m <username>
 Set the password with passwd <username> 
 Use visudo to add this new user to the sudoers group.
 
-configure grub.
-
 exit chroot
 shutdown
 boot up, and log in as new user
-
 
 Git clone the configs repo.
 

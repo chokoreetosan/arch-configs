@@ -1,0 +1,12 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.digraphs": {
+        
+    }, 
+    "vim.handleKeys": {
+        "<h>": false,
+        "<j>": false,
+        "<k>": false,
+        "<l>":false
+    },
+}

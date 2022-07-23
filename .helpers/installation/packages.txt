@@ -1,0 +1,10 @@
+linux
+linux-firmware
+networkmanager
+base
+base-devel
+sudo
+vi
+grub
+efibootmgr
+git
